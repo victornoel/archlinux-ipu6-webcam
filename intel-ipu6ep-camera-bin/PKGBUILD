@@ -14,7 +14,7 @@ depends=('intel-ipu6-dkms-git' 'glibc')
 makedepends=('git')
 provides=(ipu6-camera-bin intel-ipu6ep-camera-bin)
 conflicts=(intel-ipu6-camera-bin intel-ipu6ep-camera-bin)
-source=("git+${url}.git")
+source=("git+${url}.git#commit=af5ba0cb4a763569ac7514635013e9d870040bcf")
 sha256sums=('SKIP')
 
 pkgver() {
