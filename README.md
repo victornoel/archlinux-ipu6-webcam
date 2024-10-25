@@ -1,7 +1,9 @@
 # archlinux-ipu6-webcam
 
 > [!WARNING]
-> Unfortunately, IPU6 cameras still don't work in `6.10.x` and `6.11.x` kernels, as reported in #89.
+> This repository currently makes IPU6 cameras only work on the latest LTS kernels (`v6.6.55` and above).
+> Unfortunately, IPU6 cameras still don't work in `6.10.x` and `6.11.x` kernels, as reported in [#89](https://github.com/stefanpartheym/archlinux-ipu6-webcam/issues/89).
+> There is a [thread on the ArchLinux forums](https://bbs.archlinux.org/viewtopic.php?id=297262) about the current state on `6.10.x` and `6.11.x` kernels.
 
 > [!NOTE]
 >
@@ -20,51 +22,13 @@ All PKGBUILDs in this repository are taken from [this comment](https://bbs.archl
 
 ## Supported kernels
 
-> [!NOTE]
-> Due to frequent changes in the stable kernels, it is recommended to use LTS kernels in order to minimize issues when upgrading the kernel.
-
 > [!WARNING]
-> Currently kernel versions `6.7.x` and `6.8.x` are not supported.
+> As stated above, currently only the latest LTS kernels are supported (`v6.6.55` and above).
 
 LTS kernels:
 
-- `6.6.18-1-lts`
-- `6.6.21-1-lts`
-- `6.6.31-1-lts`
-- `6.6.48-1-lts`
 - `6.6.56-1-lts`
-
-Stable kernels:
-
-- `6.1.4-arch1-1`
-- `6.3.7-arch1-1`
-- `6.4.3-arch1-1`
-- `6.4.7-arch1-2`
-- `6.4.8-arch1-1`
-- `6.4.12-arch1-1`
-- `6.5.5-arch1-1` (see [issue #42](https://github.com/stefanpartheym/archlinux-ipu6-webcam/issues/40))
-- `6.5.6-arch2-1`
-- `6.5.7-arch1-1`
-- `6.5.8-arch1-1`
-- `6.5.9-arch2-1`
-- `6.6.1-arch1-1` (see [issue #53](https://github.com/stefanpartheym/archlinux-ipu6-webcam/issues/53))
-- `6.6.7-arch1-1`
-- `6.6.8-arch1-1`
-- `6.6.10-arch1-1`
-
-Zen kernels:
-
-- `6.1.4-zen2-1-zen`
-- `6.6.7-zen-1-zen`
-- `6.6.9-zen1-zen`
-
-Manjaro kernels:
-
-- `6.1.31-2-MANJARO`
-- `6.4.1-5-MANJARO`
-- `6.5.5-1-MANJARO` (see [issue #21](https://github.com/stefanpartheym/archlinux-ipu6-webcam/issues/21))
-- `6.6.25-1-MANJARO` (see [issue #78](https://github.com/stefanpartheym/archlinux-ipu6-webcam/issues/78))
-- `6.6.27-1-MANJARO` (see [issue #81](https://github.com/stefanpartheym/archlinux-ipu6-webcam/issues/81))
+- `6.6.58-1-lts`
 
 ## Supported devices
 
